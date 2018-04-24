@@ -1,1 +1,98 @@
-*{box-sizing:border-box}body{margin:0;background:#f0db4e;color:#373730;font-weight:300;font-family:Roboto}.holder{width:100%;max-width:350px;margin:0 auto}.holder > div{display:none;justify-content:center;align-items:center;width:100%;min-height:100vh;text-align:center;flex-wrap:wrap;}.holder > div.active{display:flex}.loading{font-size:2.5em}input{font-family:Roboto;font-weight:300;text-align:center;background:rgba(55,55,48,0.15);color:#373730;padding:.25em;font-size:1.5em;width:100%;border:none;outline:none}.login > div div{width:100%;margin-bottom:.5em}.login > div div:nth-child(1){font-size:1.8em}.login > div div:nth-child(3){background:#373730;color:#fff;padding:.5em;cursor:pointer}.loginErrorMessage,.openErrorMessage{font-size:1.2em;font-weight:bold;color:#f44336}.open img{width:100%;border:.75em solid #fff;display:block}.openButton{font-size:2em;margin:0 auto 2em;cursor:pointer;background:#373730;color:#fff;width:100%;padding:.5em 0;transition:background .5s;}.openButton:hover{background:#525248}.logout{width:100%;margin-top:1em;font-size:1.2em;cursor:pointer;background:#f44336;color:#fff;padding:.25em 0;transition:background .5s;}.logout:hover{background:#f77066}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #f0db4e;
+  color: #373730;
+  font-weight: 300;
+  font-family: Roboto;
+}
+.holder {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+}
+.holder > div {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.holder > div.active {
+  display: flex;
+}
+.loading {
+  font-size: 2.5em;
+}
+input {
+  font-family: Roboto;
+  font-weight: 300;
+  text-align: center;
+  background: rgba(55,55,48,0.15);
+  color: #373730;
+  padding: 0.25em;
+  font-size: 1.5em;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.login > div div {
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+.login > div div:nth-child(2) {
+  font-size: 1.8em;
+}
+.login > div div:nth-child(4) {
+  background: #373730;
+  color: #fff;
+  padding: 0.5em;
+  cursor: pointer;
+}
+.loginErrorMessage,
+.openErrorMessage {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #f44336;
+}
+.logo {
+  width: 50%;
+  margin: 0 auto 1.5em;
+  display: block;
+  box-shadow: 0 0 2em rgba(0,0,0,0.6);
+}
+.open img:nth-child(2) {
+  width: 100%;
+  border: 0.75em solid #fff;
+  display: block;
+}
+.openButton {
+  font-size: 2em;
+  margin: 0 auto 2em;
+  cursor: pointer;
+  background: #373730;
+  color: #fff;
+  width: 100%;
+  padding: 0.5em 0;
+  transition: background 0.5s;
+}
+.openButton:hover {
+  background: #525248;
+}
+.logout {
+  width: 100%;
+  margin-top: 1em;
+  font-size: 1.2em;
+  cursor: pointer;
+  background: #f44336;
+  color: #fff;
+  padding: 0.25em 0;
+  transition: background 0.5s;
+}
+.logout:hover {
+  background: #f77066;
+}
