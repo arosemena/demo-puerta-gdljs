@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="puerta.css">
+  <title>Puerta</title>
+</head>
+<body>
+  <div class="holder">
+    <div class="loading active">
+      Cargando...
+    </div>
+    <div class="login">
+      <div>
+        <div>Ingresa tu contraseña</div>
+        <input type="password">
+        <div class="submitButton">Ingresar</div>
+        <div class="loginErrorMessage"></div>
+      </div>
+    </div>
+    <div class="open">
+      <div>
+        <img src="ejemplo_cctv.jpg">
+        <div class="openButton">Abrir</div>
+        <div class="openErrorMessage"></div>        
+        
+        <div class="logout">Cerrar Sesión</div>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="puerta.js"></script>
+</body>
+</html>

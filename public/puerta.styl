@@ -1,0 +1,95 @@
+color=#f0db4e
+color2=#373730
+width=350px
+
+*
+  box-sizing border-box
+
+body
+  margin 0
+  background color
+  color color2
+  font-weight 300
+  font-family Roboto
+
+.holder
+  width 100%
+  max-width width
+  margin 0 auto
+
+.holder > div
+  display none
+  justify-content center
+  align-items center
+  width 100%
+  min-height 100vh
+  text-align center
+  flex-wrap wrap
+
+  &.active
+    display flex
+
+.loading
+  font-size 2.5em  
+
+input
+  font-family Roboto
+  font-weight 300
+  text-align center
+  background rgba(color2, .15)
+  color color2
+  padding .25em
+  font-size 1.5em
+  width 100%
+  border none
+  outline none
+
+.login > div
+  div
+    width 100%
+    margin-bottom .5em
+
+  div:nth-child(1)
+    font-size 1.8em
+
+  div:nth-child(3)
+    background color2
+    color white
+    padding .5em
+    cursor pointer
+
+.loginErrorMessage, .openErrorMessage
+  font-size 1.2em
+  font-weight bold
+  color #f44336
+
+.open img
+  width 100%
+  border .75em solid white
+  display block
+
+.openButton
+  font-size 2em
+  margin 0 auto 2em
+  cursor pointer
+  background color2
+  color white
+  width 100%
+  padding .5em 0
+  transition background .5s
+
+  &:hover
+    background lighten(color2, 10) 
+
+.logout
+  width 100%
+  margin-top 1em
+  font-size 1.2em
+  cursor pointer
+  background #f44336
+  color white
+  padding .25em 0
+  transition background .5s
+
+  &:hover
+    background lighten(#f44336, 10)

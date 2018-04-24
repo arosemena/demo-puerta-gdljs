@@ -1,0 +1,12 @@
+{
+  "name": "gdljs-demo-puerta",
+  "version": "1.0.0",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "redis": "^2.8.0",
+    "uuid": "^3.2.1"
+  }
+}
